@@ -1,5 +1,5 @@
 import { commands, ExtensionContext, languages } from "vscode";
-import MyCodeLensProvider from "./myCodeLens";
+import MyCodeLensProvider from "./myCodeLensProvider";
 import { addConsoleLog } from "./commands";
 
 export function activate(context: ExtensionContext) {
